@@ -12,8 +12,8 @@ const STEPS = [
   { icon: CheckCircle, message: "Finalizing your report...", color: "#16A34A", progress: 95 },
 ];
 
-const STEP_DURATION_MS = 900; // time spent on each step
-const API_BASE = 'http://localhost:8000';
+const STEP_DURATION_MS = 1200; // time spent on each step
+const API_BASE =  import.meta.env.VITE_API_URL || 'http://localhost:8000';
 
 export default function LoadingScreen() {
   const navigate = useNavigate();
