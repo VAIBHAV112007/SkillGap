@@ -5,8 +5,8 @@ python-multipart
 python-dotenv
 pdfplumber
 groq
+openai
+pydantic
 passlib
 python-jose
 bcrypt
-pydantic
-openai
