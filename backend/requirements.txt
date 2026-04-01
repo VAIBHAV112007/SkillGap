@@ -8,3 +8,4 @@ groq
 passlib
 python-jose
 bcrypt
+pydantic
